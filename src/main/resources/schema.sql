@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 CREATE TABLE IF NOT EXISTS `authority` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NOT NULL,
-  `user` INT NOT NULL,
+  `s_user` INT NOT NULL,
   PRIMARY KEY (`id`));
 
 CREATE TABLE IF NOT EXISTS `product` (
